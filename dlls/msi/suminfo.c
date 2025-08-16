@@ -126,6 +126,7 @@ static UINT get_type( UINT uiProperty )
     case PID_TITLE:
          return VT_LPSTR;
 
+    case PID_EDITTIME:
     case PID_LASTPRINTED:
     case PID_CREATE_DTM:
     case PID_LASTSAVE_DTM:
